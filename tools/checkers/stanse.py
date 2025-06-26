@@ -117,7 +117,7 @@ def main():
 		return
 
 	rootdir = os.path.abspath(sys.argv[1])
-	config = os.path.join(rootdir, "HelenOS.config")
+	config = os.path.join(rootdir, "SilkOS.config")
 
 	if (not os.path.isfile(config)):
 		print("%s not found." % config)

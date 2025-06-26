@@ -34,7 +34,7 @@ run_target('config',
 		'--',
 		meson.build_root(),
 		config_py.full_path(),
-		meson.source_root() / 'HelenOS.config',
+		meson.source_root() / 'SilkOS.config',
 		meson.source_root() / 'defaults',
 		'--mask-platform',
 	]
@@ -51,7 +51,7 @@ if false
 			'--',
 			meson.build_root(),
 			config_py.full_path(),
-			meson.source_root() / 'HelenOS.config',
+			meson.source_root() / 'SilkOS.config',
 			meson.source_root() / 'defaults',
 		]
 	)

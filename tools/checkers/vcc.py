@@ -185,7 +185,7 @@ def main():
 		print("Please supply the full Cygwin path to Vcc as the second argument.")
 		return
 
-	config = os.path.join(rootdir, "HelenOS.config")
+	config = os.path.join(rootdir, "SilkOS.config")
 
 	if (not os.path.isfile(config)):
 		print("%s not found." % config)

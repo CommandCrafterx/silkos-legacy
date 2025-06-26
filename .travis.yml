@@ -5,7 +5,7 @@
 # * HelenOS is always built for all architectures
 #   * that is done using matrix environmental variables
 #   * the list of architectures has to be kept manually in sync with
-#     HelenOS.config
+#     SilkOS.config
 #   * the actual architecture is specified via H_ARCH variable
 #
 # * ported software is built when H_HARBOURS is set to true for given

@@ -58,7 +58,7 @@ if [ "$PWD" = "$SOURCE_DIR" ]; then
 	cd build_all
 fi
 
-CONFIG_RULES="${SOURCE_DIR}/HelenOS.config"
+CONFIG_RULES="${SOURCE_DIR}/SilkOS.config"
 
 PROFILES=`sh ${SOURCE_DIR}/tools/list_profiles.sh`
 
