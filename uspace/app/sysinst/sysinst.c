@@ -1319,7 +1319,7 @@ static errno_t sysinst_confirm_create(sysinst_t *sysinst)
 
 	ui_msg_dialog_params_init(&params);
 	params.caption = "System installation";
-	params.text = "This will install HelenOS to your computer. Continue?";
+	params.text = "This will install SilkOS to your computer. Continue?";
 	params.choice = umdc_ok_cancel;
 	params.flags |= umdf_topmost | umdf_center;
 
