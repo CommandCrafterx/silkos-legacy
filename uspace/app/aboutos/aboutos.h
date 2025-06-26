@@ -30,7 +30,7 @@
  * @{
  */
 /**
- * @file About HelenOS
+ * @file About SilkOS
  */
 
 #ifndef ABOUTOS_H
