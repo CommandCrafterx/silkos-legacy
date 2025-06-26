@@ -1,4 +1,4 @@
 /** @addtogroup aboutos aboutos
- * @brief About HelenOS
+ * @brief About SilkOS
  * @ingroup apps
  */

@@ -30,7 +30,7 @@
 /** @addtogroup aboutos
  * @{
  */
-/** @file About HelenOS
+/** @file About SilkOS
  */
 
 #include <errno.h>
