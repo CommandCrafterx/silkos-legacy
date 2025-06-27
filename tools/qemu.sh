@@ -12,7 +12,7 @@ echo "Creating disk image: $IMG"
 qemu-img create -f qcow2 "$IMG" 512M
 
 # Launch QEMU with Live-CD and IDE disk
-echo "[$(date)] Starting SilkOS Live-CD installer..."
+echo "Starting SilkOS Live-CD installer..."
 qemu-system-x86_64 \
   -enable-kvm \
   -m 512M \
