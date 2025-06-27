@@ -2,6 +2,7 @@
 
 #
 # Copyright (c) 2009 Martin Decky
+# Copyright (c) 2025 CommandCrafterx
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -68,7 +69,7 @@ check_error() {
 }
 
 show_usage() {
-	echo "HelenOS cross-compiler toolchain build script"
+	echo "SilkOS cross-compiler toolchain build script"
 	echo
 	echo "Syntax:"
 	echo " $0 [--system-wide] [--with-gdb|--only-gdb] <platform>"
@@ -210,7 +211,7 @@ show_countdown() {
 show_dependencies() {
 	set_cross_prefix
 
-	echo "HelenOS cross-compiler toolchain build script"
+	echo "SilkOS cross-compiler toolchain build script"
 	echo
 	echo "Installing software to $CROSS_PREFIX"
 	echo
@@ -230,6 +231,8 @@ show_dependencies() {
 	echo " - native C and C++ compiler, assembler and linker"
 	echo " - native C and C++ standard library with headers"
 	echo
+	echo "Example Command for Ubuntu: sudo apt install build-essential wget texinfo flex bison dialog python3-yaml genisoimage meson"
+	echo "Tipp: Build this toolchain on Ubuntu if possible, I couldnt really get it working on many other Distros."
 }
 
 cleanup_dir() {
