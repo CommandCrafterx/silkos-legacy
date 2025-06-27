@@ -40,7 +40,7 @@
 void welcome_msg_print(void)
 {
 	printf("Welcome to SilkOS!\n");
-	printf("https://Silk.org\n\n");
+	printf("https://github.com/CommandCrafterx/silkos\n\n");
 	printf("Type 'help' [Enter] to see a few survival tips.\n\n");
 }
 
