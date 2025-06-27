@@ -47,7 +47,7 @@ if [ "$#" -gt 1 ] || [ "$want_help" -eq 0 ]; then
 	# Find all the leaf subdirectories in the defaults directory.
 	PROFILES=`find ${CONFIG_DEFAULTS} -type d -links 2 -printf "%P\n" | sort`
 
-	echo "Configures the current working directory as a HelenOS build directory."
+	echo "Configures the current working directory as a SilkOS build directory."
 	echo "In-tree build is not supported, you must create a separate directory for build."
 	echo
 	echo "Usage:"
@@ -100,7 +100,7 @@ if [ ! -e tools ]; then
 	ln -s "${SOURCE_DIR}/tools" tools
 fi
 
-# Run HelenOS config tool.
+# Run SilkOS config tool.
 if [ "$#" -eq 1 ]; then
 	"${SOURCE_DIR}/tools/config.py" "${CONFIG_RULES}" "${CONFIG_DEFAULTS}" hands-off "$1" || exit 1
 else
