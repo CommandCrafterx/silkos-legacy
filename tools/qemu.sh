@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ISO="$1"
-IMG="helenos_disk.qcow2"
+IMG="silkos_disk.qcow2"
 
 if [[ -z "$ISO" ]]; then
   echo "Usage: $0 <image.iso>"
@@ -12,7 +12,7 @@ echo "Creating disk image: $IMG"
 qemu-img create -f qcow2 "$IMG" 512M
 
 # Launch QEMU with Live-CD and IDE disk
-echo "[$(date)] Starting HelenOS Live-CD installer..."
+echo "[$(date)] Starting SilkOS Live-CD installer..."
 qemu-system-x86_64 \
   -enable-kvm \
   -m 512M \
@@ -30,7 +30,7 @@ read -rp "Press ENTER once installation finishes to continue..."
 
 # Boot from the Harddisk
 echo
-echo "Booting installed HelenOS from disk..."
+echo "Booting installed SilkOS from disk..."
 qemu-system-x86_64 \
   -enable-kvm \
   -m 512M \
