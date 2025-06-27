@@ -84,9 +84,9 @@ if BUILD
 		'-imacros', meson.build_root() / 'config.h',
 		'-D_HELENOS_SOURCE',
 		'-DBOOT',
-		'-DHELENOS_RELEASE=' + HELENOS_RELEASE,
-		'-DHELENOS_COPYRIGHT=' + HELENOS_COPYRIGHT,
-		'-DHELENOS_CODENAME=' + HELENOS_CODENAME,
+		'-DSILKOS_RELEASE=' + SILKOS_RELEASE,
+		'-DSILKOS_COPYRIGHT=' + SILKOS_COPYRIGHT,
+		'-DSILKOS_CODENAME=' + SILKOS_CODENAME,
 		'-D__@0@_BITS__'.format(meson.get_cross_property('bits')),
 	]
 
@@ -212,7 +212,7 @@ if POSTBUILD == 'silo'
 endif
 
 if POSTBUILD == 'uboot'
-	IMAGE_NAME = 'HelenOS-' + HELENOS_RELEASE
+	IMAGE_NAME = 'HelenOS-' + SILKOS_RELEASE
 
 	POST_INPUT = custom_target('uboot-image',
 		output: 'uboot-image.bin',

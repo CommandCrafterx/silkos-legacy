@@ -48,7 +48,7 @@ echo
 echo
 
 PROFILES=`sh ${SOURCE_DIR}/tools/list_profiles.sh`
-RELEASE=`sed -n 's:^HELENOS_RELEASE \?= \?\(.*\)$:\1:p' "${SOURCE_DIR}/version"`
+RELEASE=`sed -n 's:^SILKOS_RELEASE \?= \?\(.*\)$:\1:p' "${SOURCE_DIR}/version"`
 SRC_ARCHIVE="HelenOS-${RELEASE}-src.tar"
 
 git -C "${SOURCE_DIR}" archive master -o "${PWD}/${SRC_ARCHIVE}"

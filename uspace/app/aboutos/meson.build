@@ -55,5 +55,5 @@ _imgs_desc_c = custom_target('aboutos_images_desc.c',
 	capture : true,
 )
 
-c_args += [ '-DHELENOS_RELEASE=' + HELENOS_RELEASE, '-DHELENOS_COPYRIGHT=' + HELENOS_COPYRIGHT, '-DHELENOS_CODENAME=' + HELENOS_CODENAME ]
+c_args += [ '-DSILKOS_RELEASE=' + SILKOS_RELEASE, '-DSILKOS_COPYRIGHT=' + SILKOS_COPYRIGHT, '-DSILKOS_CODENAME=' + SILKOS_CODENAME ]
 src = [ files('aboutos.c'), _imgs_s, _imgs_h, _imgs_desc_c ]

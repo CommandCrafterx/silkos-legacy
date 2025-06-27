@@ -27,5 +27,5 @@
 #
 
 deps = [ 'http', 'uri' ]
-c_args += ('-DRELEASE=' + HELENOS_RELEASE)
+c_args += ('-DRELEASE=' + SILKOS_RELEASE)
 src = files('main.c')

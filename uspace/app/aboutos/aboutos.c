@@ -235,8 +235,8 @@ int main(int argc, char *argv[])
 
 	/* Release label */
 
-	rc = ui_label_create(ui_res, "SilkOS " STRING(HELENOS_RELEASE)
-	    " (" STRING(HELENOS_CODENAME) ")", &aboutos.lrelease);
+	rc = ui_label_create(ui_res, "SilkOS " STRING(SILKOS_RELEASE)
+	    " (" STRING(SILKOS_CODENAME) ")", &aboutos.lrelease);
 	if (rc != EOK) {
 		printf("Error creating label.\n");
 		return rc;
@@ -265,7 +265,7 @@ int main(int argc, char *argv[])
 
 	/* Copyright label */
 
-	rc = ui_label_create(ui_res, STRING(HELENOS_COPYRIGHT), &aboutos.lcopy);
+	rc = ui_label_create(ui_res, STRING(SILKOS_COPYRIGHT), &aboutos.lcopy);
 	if (rc != EOK) {
 		printf("Error creating label.\n");
 		return rc;
