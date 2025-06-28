@@ -1145,7 +1145,7 @@ static errno_t sysinst_progress_create(sysinst_t *sysinst,
 		goto error;
 	}
 
-	rc = ui_label_create(ui_res, "Installing system. Please wait...",
+	rc = ui_label_create(ui_res, "Installing SilkOS. Please wait...",
 	    &progress->label);
 	if (rc != EOK) {
 		sysinst_error(sysinst, "Error creating label.");
