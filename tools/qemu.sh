@@ -40,6 +40,12 @@ fi
 echo "Creating disk image: $IMG"
 qemu-img create -f qcow2 "$IMG" 512M
 
+echo
+echo "   - Open the Qemu window"
+echo "   – log in if needed, then run 'sysinst'"
+echo "   – Wait for the installer to finish"
+echo "   – Then close QEMU"
+
 # Launch QEMU with Live-CD and IDE disk
 echo "Starting SilkOS Live-CD installer..."
 qemu-system-x86_64 \
@@ -49,13 +55,7 @@ qemu-system-x86_64 \
   -cdrom "$ISO" \
   -boot d
 
-echo
-echo "   - Open the Qemu window"
-echo "   – log in if needed, then run 'sysinst'"
-echo "   – Wait for the installer to finish"
-echo "   – Then close QEMU"
-
-read -rp "Press ENTER once installation finishes to continue..."
+read -rp "Press ENTER to boot from the Harddisk..."
 
 # Boot from the Harddisk
 echo
