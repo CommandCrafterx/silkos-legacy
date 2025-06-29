@@ -232,7 +232,7 @@ show_dependencies() {
 	echo " - native C and C++ standard library with headers"
 	echo
 	echo "Example Command for Ubuntu: sudo apt install build-essential wget texinfo flex bison dialog python3-yaml genisoimage meson"
-	echo "Tipp: Build this toolchain on Ubuntu if possible, I couldnt really get it working on many other Distros."
+	echo "Tip: Build this toolchain on Ubuntu if possible, I couldnt really get it working on many other Distros."
 }
 
 cleanup_dir() {
