@@ -30,7 +30,7 @@
 </entry>
 <entry caption="Tas~k~ Monitor (top)" cmd="/app/top" terminal="y">
 </entry>
-<entry caption="~F~disk Disk Editor" cmd="/app/fdisk" terminal="y">
+<entry caption="Disk ~U~tility" cmd="/app/fdisk" terminal="y">
 </entry>
 <entry caption="Insta~l~l SilkOS to Disk" cmd="/app/sysinst -d %d" terminal="n">
 </entry>
