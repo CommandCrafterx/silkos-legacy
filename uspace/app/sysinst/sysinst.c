@@ -82,7 +82,7 @@
 #define MOUNT_POINT "/inst"
 
 /** HelenOS live CD volume label */
-#define CD_VOL_LABEL "HelenOS-CD"
+#define CD_VOL_LABEL "SilkOS-CD"
 /** XXX Should get this from the volume server */
 #define CD_MOUNT_POINT "/vol/" CD_VOL_LABEL
 
