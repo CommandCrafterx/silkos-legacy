@@ -75,7 +75,7 @@
 #define DEFAULT_DEV_2 "devices/\\hw\\sys\\00:01.0\\ide1\\c0d0"
 //#define DEFAULT_DEV "devices/\\hw\\pci0\\00:01.2\\uhci_rh\\usb01_a1\\mass-storage0\\l0"
 /** Volume label for the new file system */
-#define INST_VOL_LABEL "HelenOS"
+#define INST_VOL_LABEL "SilkOS"
 /** Mount point of system partition when running installed system */
 #define INST_VOL_MP "/w"
 
