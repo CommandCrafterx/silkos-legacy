@@ -70,7 +70,7 @@ static driver_t kbd_driver = {
  */
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS AT keyboard driver.\n");
+	printf(NAME ": SilkOS AT keyboard driver.\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&kbd_driver);
 }

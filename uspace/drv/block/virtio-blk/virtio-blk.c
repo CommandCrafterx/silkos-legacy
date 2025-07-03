@@ -493,7 +493,7 @@ uninitialize:
 
 int main(void)
 {
-	printf("%s: HelenOS virtio-blk driver\n", NAME);
+	printf("%s: SilkOS virtio-blk driver\n", NAME);
 
 	(void) ddf_log_init(NAME);
 	return ddf_driver_main(&virtio_blk_driver);

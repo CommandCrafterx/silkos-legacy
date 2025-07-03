@@ -1238,6 +1238,6 @@ int main(void)
 	    &rtl8169_driver_ops, &rtl8169_dev_ops, &rtl8169_nic_iface);
 
 	ddf_log_init(NAME);
-	ddf_msg(LVL_NOTE, "HelenOS RTL8169 driver started");
+	ddf_msg(LVL_NOTE, "SilkOS RTL8169 driver started");
 	return ddf_driver_main(&rtl8169_driver);
 }

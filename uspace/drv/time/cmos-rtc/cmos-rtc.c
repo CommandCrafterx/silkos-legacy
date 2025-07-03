@@ -779,7 +779,7 @@ rtc_fun_offline(ddf_fun_t *fun)
 int
 main(int argc, char **argv)
 {
-	printf(NAME ": HelenOS RTC driver\n");
+	printf(NAME ": SilkOS RTC driver\n");
 	rtc_init();
 	return ddf_driver_main(&rtc_driver);
 }

@@ -311,7 +311,7 @@ int main(int argc, char *argv[])
 {
 	errno_t rc;
 
-	printf(NAME ": HelenOS IntegratorCP platform driver\n");
+	printf(NAME ": SilkOS IntegratorCP platform driver\n");
 
 	rc = ddf_log_init(NAME);
 	if (rc != EOK) {

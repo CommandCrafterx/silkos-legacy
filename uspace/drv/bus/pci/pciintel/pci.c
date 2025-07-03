@@ -1062,7 +1062,7 @@ size_t pci_bar_mask_to_size(uint32_t mask)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS PCI bus driver (Intel method 1).\n");
+	printf(NAME ": SilkOS PCI bus driver (Intel method 1).\n");
 	pciintel_init();
 	return ddf_driver_main(&pci_driver);
 }

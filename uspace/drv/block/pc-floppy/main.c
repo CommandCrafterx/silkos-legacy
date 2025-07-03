@@ -220,7 +220,7 @@ static errno_t pc_fdc_fun_offline(ddf_fun_t *fun)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS PC floppy disk driver\n");
+	printf(NAME ": SilkOS PC floppy disk driver\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&pc_fdc_driver);
 }

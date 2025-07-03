@@ -420,7 +420,7 @@ static void isa_ide_connection(ipc_call_t *icall, void *arg)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS ISA IDE device driver\n");
+	printf(NAME ": SilkOS ISA IDE device driver\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&isa_ide_driver);
 }

@@ -261,7 +261,7 @@ static void malta_init(void)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS Malta platform driver\n");
+	printf(NAME ": SilkOS Malta platform driver\n");
 	malta_init();
 	return ddf_driver_main(&malta_driver);
 }

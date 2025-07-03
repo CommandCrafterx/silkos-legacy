@@ -886,7 +886,7 @@ static errno_t isa_fun_offline(ddf_fun_t *fun)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS ISA bus driver\n");
+	printf(NAME ": SilkOS ISA bus driver\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&isa_driver);
 }

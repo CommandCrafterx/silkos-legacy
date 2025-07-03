@@ -899,7 +899,7 @@ static errno_t ar9271_add_device(ddf_dev_t *dev)
 		return ENOMEM;
 	}
 
-	usb_log_info("HelenOS AR9271 device initialized.\n");
+	usb_log_info("SilkOS AR9271 device initialized.\n");
 
 	/* Upload AR9271 firmware. */
 	ar9271_upload_fw(ar9271);
@@ -934,7 +934,7 @@ static errno_t ar9271_add_device(ddf_dev_t *dev)
 	    ar9271_on_unicast_mode_change, ar9271_on_multicast_mode_change,
 	    ar9271_on_broadcast_mode_change, NULL, NULL);
 
-	usb_log_info("HelenOS AR9271 added device.\n");
+	usb_log_info("SilkOS AR9271 added device.\n");
 
 	return EOK;
 }
@@ -946,7 +946,7 @@ int main(void)
 	if (nic_driver_init(NAME) != EOK)
 		return 1;
 
-	usb_log_info("HelenOS AR9271 driver started.\n");
+	usb_log_info("SilkOS AR9271 driver started.\n");
 
 	return ddf_driver_main(&ar9271_driver);
 }

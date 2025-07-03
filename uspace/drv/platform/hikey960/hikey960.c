@@ -254,7 +254,7 @@ int main(int argc, char *argv[])
 {
 	errno_t rc;
 
-	printf("%s: HelenOS HiKey 960 platform driver\n", NAME);
+	printf("%s: SilkOS HiKey 960 platform driver\n", NAME);
 
 	rc = ddf_log_init(NAME);
 	if (rc != EOK) {

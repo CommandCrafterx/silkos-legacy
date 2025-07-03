@@ -261,7 +261,7 @@ static void sun4u_init(void)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS sun4u platform driver\n");
+	printf(NAME ": SilkOS sun4u platform driver\n");
 	sun4u_init();
 	return ddf_driver_main(&sun4u_driver);
 }

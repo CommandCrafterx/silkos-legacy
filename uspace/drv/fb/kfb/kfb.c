@@ -56,7 +56,7 @@ static driver_t kgraph_driver = {
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS kernel framebuffer driver\n", NAME);
+	printf("%s: SilkOS kernel framebuffer driver\n", NAME);
 	return ddf_driver_main(&kgraph_driver);
 }
 

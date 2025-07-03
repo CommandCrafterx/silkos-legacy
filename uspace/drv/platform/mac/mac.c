@@ -243,7 +243,7 @@ static hw_res_ops_t fun_hw_res_ops = {
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS Mac platform driver\n", NAME);
+	printf("%s: SilkOS Mac platform driver\n", NAME);
 	ddf_log_init(NAME);
 	mac_fun_ops.interfaces[HW_RES_DEV_IFACE] = &fun_hw_res_ops;
 	mac_fun_ops.interfaces[PIO_WINDOW_DEV_IFACE] = &fun_pio_window_ops;

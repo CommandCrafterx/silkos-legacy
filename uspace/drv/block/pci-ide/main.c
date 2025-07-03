@@ -409,7 +409,7 @@ static void pci_ide_connection(ipc_call_t *icall, void *arg)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS PCI IDE device driver\n");
+	printf(NAME ": SilkOS PCI IDE device driver\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&pci_ide_driver);
 }

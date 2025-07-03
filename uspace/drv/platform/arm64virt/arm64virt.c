@@ -255,7 +255,7 @@ int main(int argc, char *argv[])
 {
 	errno_t rc;
 
-	printf(NAME ": HelenOS ARM64 QEMU virt platform driver\n");
+	printf(NAME ": SilkOS ARM64 QEMU virt platform driver\n");
 
 	rc = ddf_log_init(NAME);
 	if (rc != EOK) {

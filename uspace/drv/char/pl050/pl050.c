@@ -390,7 +390,7 @@ int main(int argc, char *argv[])
 {
 	errno_t rc;
 
-	printf(NAME ": HelenOS pl050 serial device driver\n");
+	printf(NAME ": SilkOS pl050 serial device driver\n");
 	rc = ddf_log_init(NAME);
 	if (rc != EOK) {
 		printf(NAME ": Error connecting logging service.");

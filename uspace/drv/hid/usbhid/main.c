@@ -170,7 +170,7 @@ static const usb_driver_t usb_hid_driver = {
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS USB HID driver.\n");
+	printf(NAME ": SilkOS USB HID driver.\n");
 
 	log_init(NAME);
 

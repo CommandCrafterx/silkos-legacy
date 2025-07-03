@@ -2163,7 +2163,7 @@ static void rtl8139_poll(nic_t *nic_data)
  */
 int main(void)
 {
-	printf("%s: HelenOS RTL8139 network adapter driver\n", NAME);
+	printf("%s: SilkOS RTL8139 network adapter driver\n", NAME);
 
 	errno_t rc = nic_driver_init(NAME);
 	if (rc != EOK)

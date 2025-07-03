@@ -2420,7 +2420,7 @@ static void e1000_send_frame(nic_t *nic, void *data, size_t size)
 
 int main(void)
 {
-	printf("%s: HelenOS E1000 network adapter driver\n", NAME);
+	printf("%s: SilkOS E1000 network adapter driver\n", NAME);
 
 	if (nic_driver_init(NAME) != EOK)
 		return 1;

@@ -240,7 +240,7 @@ static void pc_init(void)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS PC platform driver\n");
+	printf(NAME ": SilkOS PC platform driver\n");
 	pc_init();
 	return ddf_driver_main(&pc_driver);
 }

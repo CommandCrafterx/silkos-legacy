@@ -146,7 +146,7 @@ static driver_t amdm37x_dispc_driver = {
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS AM/DM37x framebuffer driver\n", NAME);
+	printf("%s: SilkOS AM/DM37x framebuffer driver\n", NAME);
 	ddf_log_init(NAME);
 	return ddf_driver_main(&amdm37x_dispc_driver);
 }

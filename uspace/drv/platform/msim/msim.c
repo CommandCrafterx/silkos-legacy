@@ -257,7 +257,7 @@ static void msim_init(void)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS MSIM platform driver\n");
+	printf(NAME ": SilkOS MSIM platform driver\n");
 	msim_init();
 	return ddf_driver_main(&msim_driver);
 }

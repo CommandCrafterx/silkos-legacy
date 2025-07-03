@@ -491,7 +491,7 @@ static driver_t ne2k_driver = {
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS NE 2000 network adapter driver\n", NAME);
+	printf("%s: SilkOS NE 2000 network adapter driver\n", NAME);
 
 	nic_driver_init(NAME);
 	nic_driver_implement(&ne2k_driver_ops, &ne2k_dev_ops, &ne2k_nic_iface);

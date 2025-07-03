@@ -236,7 +236,7 @@ static errno_t root_fun_offline(ddf_fun_t *fun)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS root device driver\n");
+	printf(NAME ": SilkOS root device driver\n");
 
 	ddf_log_init(NAME);
 	return ddf_driver_main(&root_driver);

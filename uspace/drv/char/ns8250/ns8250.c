@@ -1135,7 +1135,7 @@ static void ns8250_init(void)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS serial port driver\n");
+	printf(NAME ": SilkOS serial port driver\n");
 	ns8250_init();
 	return ddf_driver_main(&ns8250_driver);
 }

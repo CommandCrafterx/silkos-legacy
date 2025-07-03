@@ -59,7 +59,7 @@ static const usb_driver_t usb_hub_driver = {
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS USB hub driver.\n");
+	printf(NAME ": SilkOS USB hub driver.\n");
 	log_init(NAME);
 	logctl_set_log_level(NAME, LVL_NOTE);
 	return usb_driver_main(&usb_hub_driver);

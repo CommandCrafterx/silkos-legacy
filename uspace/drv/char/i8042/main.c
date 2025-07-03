@@ -167,7 +167,7 @@ static driver_t i8042_driver = {
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS PS/2 driver.\n", NAME);
+	printf("%s: SilkOS PS/2 driver.\n", NAME);
 	ddf_log_init(NAME);
 
 	return ddf_driver_main(&i8042_driver);

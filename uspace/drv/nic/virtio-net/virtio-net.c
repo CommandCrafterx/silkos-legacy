@@ -485,7 +485,7 @@ static nic_iface_t virtio_net_nic_iface = {
 
 int main(void)
 {
-	printf("%s: HelenOS virtio-net driver\n", NAME);
+	printf("%s: SilkOS virtio-net driver\n", NAME);
 
 	if (nic_driver_init(NAME) != EOK)
 		return 1;

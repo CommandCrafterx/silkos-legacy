@@ -272,7 +272,7 @@ static errno_t amdm37x_enable_interrupt(ddf_fun_t *fun, int irq)
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS AM/DM37x(OMAP37x) platform driver\n", NAME);
+	printf("%s: SilkOS AM/DM37x(OMAP37x) platform driver\n", NAME);
 	ddf_log_init(NAME);
 	return ddf_driver_main(&amdm37x_driver);
 }

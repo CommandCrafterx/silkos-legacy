@@ -73,7 +73,7 @@ static driver_t sb_driver = {
  */
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS SB16 audio driver.\n");
+	printf(NAME ": SilkOS SB16 audio driver.\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&sb_driver);
 }

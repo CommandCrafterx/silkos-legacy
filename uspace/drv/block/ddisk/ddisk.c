@@ -609,7 +609,7 @@ static void ddisk_bd_connection(ipc_call_t *icall, void *arg)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS MSIM ddisk device driver\n");
+	printf(NAME ": SilkOS MSIM ddisk device driver\n");
 	ddf_log_init(NAME);
 	return ddf_driver_main(&ddisk_driver);
 }
