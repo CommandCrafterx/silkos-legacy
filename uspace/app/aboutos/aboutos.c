@@ -195,7 +195,7 @@ int main(int argc, char *argv[])
 	ui_res = ui_window_get_res(window);
 	gc = ui_window_get_gc(window);
 
-	rc = decode_tga(gc, (void *) helenos_tga, helenos_tga_size,
+	rc = decode_tga(gc, (void *) silkos_tga, silkos_tga_size,
 	    &logo_bmp, &logo_rect);
 	if (rc != EOK) {
 		printf("Unable to decode logo.\n");

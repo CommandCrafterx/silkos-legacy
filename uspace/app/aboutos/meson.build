@@ -29,7 +29,7 @@
 
 deps = [ 'gfximage', 'ui' ]
 
-_images = files('gfx/helenos.tga')
+_images = files('gfx/silkos.tga')
 
 _images_zip = custom_target('aboutos_images.zip',
 	input : _images,
