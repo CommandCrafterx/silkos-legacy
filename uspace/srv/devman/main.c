@@ -319,7 +319,7 @@ static bool devman_init(void)
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS Device Manager\n", NAME);
+	printf("%s: SilkOS Device Manager\n", NAME);
 
 	errno_t rc = log_init(NAME);
 	if (rc != EOK) {
