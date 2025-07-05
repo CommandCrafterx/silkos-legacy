@@ -88,7 +88,7 @@ static void notification_handler(ipc_call_t *call, void *arg)
 
 int main(int argc, char **argv)
 {
-	printf("%s: HelenOS VFS server\n", NAME);
+	printf("%s: SilkOS VFS server\n", NAME);
 
 	/*
 	 * Initialize VFS node hash table.

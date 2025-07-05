@@ -1539,7 +1539,7 @@ static void loc_connection_consumer(ipc_call_t *icall, void *arg)
  */
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS Location Service\n", NAME);
+	printf("%s: SilkOS Location Service\n", NAME);
 
 	if (!loc_init()) {
 		printf("%s: Error while initializing service\n", NAME);

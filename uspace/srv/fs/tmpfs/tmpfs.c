@@ -63,7 +63,7 @@ vfs_info_t tmpfs_vfs_info = {
 
 int main(int argc, char **argv)
 {
-	printf("%s: HelenOS TMPFS file system server\n", NAME);
+	printf("%s: SilkOS TMPFS file system server\n", NAME);
 
 	if (argc == 3) {
 		if (!str_cmp(argv[1], "--instance"))

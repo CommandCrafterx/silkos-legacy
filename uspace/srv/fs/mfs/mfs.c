@@ -60,7 +60,7 @@ int main(int argc, char **argv)
 {
 	errno_t rc;
 
-	printf(NAME ": HelenOS Minix file system server\n");
+	printf(NAME ": SilkOS Minix file system server\n");
 
 	if (argc == 3) {
 		if (!str_cmp(argv[1], "--instance"))

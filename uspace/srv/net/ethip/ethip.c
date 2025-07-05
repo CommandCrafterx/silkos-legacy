@@ -316,7 +316,7 @@ int main(int argc, char *argv[])
 {
 	errno_t rc;
 
-	printf(NAME ": HelenOS IP over Ethernet service\n");
+	printf(NAME ": SilkOS IP over Ethernet service\n");
 
 	if (log_init(NAME) != EOK) {
 		printf(NAME ": Failed to initialize logging.\n");

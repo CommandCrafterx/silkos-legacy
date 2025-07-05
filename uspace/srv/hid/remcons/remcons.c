@@ -908,7 +908,7 @@ int main(int argc, char *argv[])
 		return rc;
 	}
 
-	printf("%s: HelenOS Remote console service\n", NAME);
+	printf("%s: SilkOS Remote console service\n", NAME);
 	task_retval(0);
 	async_manager();
 

@@ -60,7 +60,7 @@ vfs_info_t fat_vfs_info = {
 
 int main(int argc, char **argv)
 {
-	printf(NAME ": HelenOS FAT file system server\n");
+	printf(NAME ": SilkOS FAT file system server\n");
 
 	if (argc == 3) {
 		if (!str_cmp(argv[1], "--instance"))

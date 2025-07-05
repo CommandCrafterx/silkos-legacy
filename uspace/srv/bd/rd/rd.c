@@ -214,7 +214,7 @@ static errno_t rd_get_num_blocks(bd_srv_t *bd, aoff64_t *rnb)
 
 int main(int argc, char **argv)
 {
-	printf("%s: HelenOS RAM disk server\n", NAME);
+	printf("%s: SilkOS RAM disk server\n", NAME);
 
 	if (!rd_init())
 		return -1;

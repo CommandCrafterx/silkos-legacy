@@ -561,7 +561,7 @@ int main(int argc, char *argv[])
 {
 	errno_t rc;
 
-	printf(NAME ": HelenOS Internet Protocol service\n");
+	printf(NAME ": SilkOS Internet Protocol service\n");
 
 	if (log_init(NAME) != EOK) {
 		printf(NAME ": Failed to initialize logging.\n");

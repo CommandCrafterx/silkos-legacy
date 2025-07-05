@@ -259,7 +259,7 @@ static errno_t loopip_addr_remove(iplink_srv_t *srv, inet_addr_t *addr)
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS loopback IP link provider\n", NAME);
+	printf("%s: SilkOS loopback IP link provider\n", NAME);
 
 	errno_t rc = log_init(NAME);
 	if (rc != EOK) {

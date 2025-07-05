@@ -61,7 +61,7 @@ static vfs_info_t locfs_vfs_info = {
 
 int main(int argc, char *argv[])
 {
-	printf("%s: HelenOS Device Filesystem\n", NAME);
+	printf("%s: SilkOS Device Filesystem\n", NAME);
 
 	if (argc == 3) {
 		if (!str_cmp(argv[1], "--instance"))

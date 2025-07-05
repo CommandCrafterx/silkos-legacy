@@ -988,7 +988,7 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 
-	printf("%s: HelenOS Console service\n", NAME);
+	printf("%s: SilkOS Console service\n", NAME);
 
 	if (!console_srv_init(argv[1], argv[2]))
 		return -1;

@@ -61,7 +61,7 @@ vfs_info_t udf_vfs_info = {
 int main(int argc, char *argv[])
 {
 	log_init(NAME);
-	log_msg(LOG_DEFAULT, LVL_NOTE, "HelenOS UDF 1.02 file system server");
+	log_msg(LOG_DEFAULT, LVL_NOTE, "SilkOS UDF 1.02 file system server");
 
 	if (argc == 3) {
 		if (!str_cmp(argv[1], "--instance"))

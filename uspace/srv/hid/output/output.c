@@ -476,7 +476,7 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	printf("%s: HelenOS output service\n", NAME);
+	printf("%s: SilkOS output service\n", NAME);
 
 	/* Register server */
 	async_set_fallback_port_handler(client_connection, NULL);

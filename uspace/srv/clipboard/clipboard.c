@@ -187,7 +187,7 @@ int main(int argc, char *argv[])
 	errno_t rc;
 	loc_srv_t *srv;
 
-	printf("%s: HelenOS clipboard service\n", NAME);
+	printf("%s: SilkOS clipboard service\n", NAME);
 	async_set_fallback_port_handler(clip_connection, NULL);
 
 	rc = loc_server_register(NAME, &srv);

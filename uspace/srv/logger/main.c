@@ -58,7 +58,7 @@ static void connection_handler_writer(ipc_call_t *icall, void *arg)
 
 int main(int argc, char *argv[])
 {
-	printf(NAME ": HelenOS Logging Service\n");
+	printf(NAME ": SilkOS Logging Service\n");
 
 	parse_initial_settings();
 	for (int i = 1; i < argc; i++) {

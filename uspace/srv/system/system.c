@@ -96,7 +96,7 @@ system_ops_t system_srv_ops = {
 /** Print banner */
 static void info_print(void)
 {
-	printf("%s: HelenOS system server\n", NAME);
+	printf("%s: SilkOS system server\n", NAME);
 }
 
 static void oom_check(errno_t rc, const char *path)

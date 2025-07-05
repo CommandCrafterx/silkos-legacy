@@ -884,7 +884,7 @@ int main(int argc, char **argv)
 		return 1;
 	}
 
-	printf("%s: HelenOS input service\n", NAME);
+	printf("%s: SilkOS input service\n", NAME);
 
 	list_initialize(&clients);
 	list_initialize(&kbd_devs);
