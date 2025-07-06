@@ -62,7 +62,7 @@
 /** Print banner */
 static void info_print(void)
 {
-	printf("%s: HelenOS init\n", NAME);
+	printf("%s: SilkOS init\n", NAME);
 }
 
 static void oom_check(errno_t rc, const char *path)
