@@ -27,6 +27,6 @@
 #
 
 
-SILKOS_RELEASE = 0.1.0
+SILKOS_RELEASE = 0.1.0 BETA
 SILKOS_CODENAME = Lorem Ipsum
 SILKOS_COPYRIGHT = Copyright (c) CommandCrafterx 2025 Copyright (c) 2001-2024 HelenOS Project
