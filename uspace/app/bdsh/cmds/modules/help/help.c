@@ -130,7 +130,7 @@ static void help_survival(void)
 	print_wrapped_console(
 	    "Don't panic!\n\n"
 
-	    "This is Bdsh, the Brain dead shell, the HelenOS "
+	    "This is Bdsh, the Brain dead shell, the SilkOS "
 	    "command-line interface. Bdsh allows you to enter "
 	    "commands and supports history (Up, Down arrow keys), "
 	    "line editing (Left Arrow, Right Arrow, Home, End, Backspace), "
@@ -147,11 +147,11 @@ static void help_survival(void)
 	    "Navigator, HelenOS interactive file manager).\n\n"
 
 	    "If you are not running in GUI mode, (where you can start "
-	    "multiple Terminal windows,) HelenOS console supports "
+	    "multiple Terminal windows,) SilkOS console supports "
 	    "virtual consoles (VCs). You can switch between "
 	    "these using the F1-F11 keys.\n\n"
 
-	    "This is but a small glimpse of what you can do with HelenOS. "
+	    "This is but a small glimpse of what you can do with SilkOS. "
 	    "To learn more please point your browser to the HelenOS User's "
 	    "Guide: https://www.helenos.org/wiki/UsersGuide\n\n",
 	    ALIGN_LEFT);
