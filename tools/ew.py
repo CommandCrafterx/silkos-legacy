@@ -29,7 +29,7 @@
 
 
 """
-Emulator wrapper for running HelenOS
+Emulator wrapper for running SilkOS
 """
 
 import inspect
