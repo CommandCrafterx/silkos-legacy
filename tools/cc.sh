@@ -31,7 +31,7 @@
 cat << EOF
 In order to comply with the license terms of the distributed software, we would
 like to reproduce the following copyright notices, that were automatically
-collected by our $0 script, followed by a list of conditions and
+collected by our build script, followed by a list of conditions and
 disclaimer:
 EOF
 
