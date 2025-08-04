@@ -40,18 +40,18 @@ int main(int argc, char *argv[])
 	double pi = 3.0;
 	int sgn = 1;
 
-	// Überprüfen, ob ein Argument übergeben wurde
+	// Check if the user provided the number of iterations
 	if (argc < 2) {
 		printf("Usage: pigen <number_of_iterations>\n");
 		return 1;
 	}
 
-	// Das Argument in eine Zahl umwandeln
+	// Convert the argument to an integer
 	iterations = atoll(argv[1]);
 
 	printf("Calculating PI with %lld iterations...\n", iterations);
 
-	// Nilakantha-Reihe: pi = 3 + 4/(2*3*4) - 4/(4*5*6) + 4/(6*7*8) - ...
+	// Use the Nilakantha series to calculate PI
 	for (long long i = 0; i < iterations; i++) {
 		long long d1 = 2 * (i + 1);
 		long long d2 = d1 + 1;
