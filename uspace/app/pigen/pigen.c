@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	// Convert the argument to an integer
+	// Convert the argument to a long long integer
 	iterations = atoll(argv[1]);
 
 	printf("Calculating PI with %lld iterations...\n", iterations);
