@@ -52,3 +52,5 @@ Now you should have a file called image.iso in your build directory, you can run
 ```
 ./tools/ew.py
 ```
+## License 
+Most of the Source Code is licensed under the BSD or MIT license but some third party components like the grub bootloader are GPL licensed.
