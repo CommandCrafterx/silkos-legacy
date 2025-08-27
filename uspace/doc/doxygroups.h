@@ -2,27 +2,27 @@
 
 /**
  * @defgroup uspace uspace
- * @brief HelenOS userspace
+ * @brief SilkOS userspace
  */
 
 /**
- * @defgroup apps HelenOS applications
+ * @defgroup apps SilkOS applications
  * @ingroup uspace
  */
 
 /**
- * @defgroup drvs HelenOS drivers
- * @brief HelenOS device drivers using the DDF framework
+ * @defgroup drvs SilkOS drivers
+ * @brief SilkOS device drivers using the DDF framework
  * @ingroup uspace
  */
 
 /**
- * @defgroup libs HelenOS libraries
+ * @defgroup libs SilkOS libraries
  * @ingroup uspace
  */
 
 /**
- * @defgroup srvs HelenOS services
+ * @defgroup srvs SilkOS services
  * @ingroup uspace
  */
 
@@ -33,7 +33,7 @@
 /**
  * @defgroup usb USB
  * @ingroup uspace
- * @brief USB support for HelenOS.
+ * @brief USB support for SilkOS.
  */
 
 /**
@@ -104,7 +104,7 @@
  */
 
 /**
- *     @defgroup lsusb HelenOS version of lsusb command
+ *     @defgroup lsusb SilkOS version of lsusb command
  *     @ingroup usb
  *     @brief Application for listing USB host controllers.
  *     @details
@@ -170,6 +170,6 @@
  *     @brief Fallback driver for any USB device.
  *     @details
  *     The purpose of this driver is to simplify querying of unknown
- *     devices from within HelenOS (without a driver, no node at all
+ *     devices from within SilkOS (without a driver, no node at all
  *     may appear under /loc/devices).
  */
