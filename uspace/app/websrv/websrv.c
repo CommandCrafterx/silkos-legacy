@@ -455,7 +455,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	printf("%s: HelenOS web server\n", NAME);
+	printf("%s: SilkOS web server\n", NAME);
 
 	if (verbose)
 		fprintf(stderr, "Creating listener\n");
