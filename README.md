@@ -19,7 +19,7 @@ $ sudo apt install build-essential wget texinfo flex bison dialog python3-yaml g
 Fedora/RHEL:
 ```
 # sudo dnf group install 'Development Tools'
-# sudo dnf install wget texinfo PyYAML genisoimage flex bison meson 
+# sudo dnf install wget texinfo python-yaml genisoimage flex bison meson 
 ```
 
 ### Build Process:
