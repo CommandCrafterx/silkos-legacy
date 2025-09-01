@@ -32,7 +32,7 @@ You need to install the HelenOS toolchain to build SilkOS you can install it by 
 $ cd SilkOS/tools
 $ ./toolchain.sh amd64 #Or ia32
 ```
-Since Meson dosen´t support in-tree builds you need to create a seperate build directory and enter it after cd´ing back into the directory where you downloaded the SilkOS source code:
+Since Meson dosen't support in-tree builds you need to create a seperate build directory and enter it after changing the directory back into the directory where you downloaded the SilkOS source code:
 ```
 $ cd ..
 & cd ..
@@ -53,6 +53,6 @@ Now you should have a file called image.iso in your build directory, you can run
 ./tools/ew.py
 ```
 ## Precompiled Images
-If you can´t compile SilkOS yourself we offer precompiled Images in the [Releases](https://github.com/CommandCrafterx/silkos/releases) Section.
+If you can't compile SilkOS yourself we offer precompiled Images in the [Releases](https://github.com/CommandCrafterx/silkos/releases) Section.
 ## License 
 Most of the Source Code is licensed under the BSD or MIT license but some third party components like the grub bootloader are GPL licensed.
