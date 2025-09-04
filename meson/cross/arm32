@@ -19,7 +19,7 @@ cc_arch = 'arm'
 bits = 32
 
 [host_machine]
-system = 'helenos'
+system = 'silkos'
 cpu_family = 'arm'
 cpu = 'arm'
 endian = 'little'

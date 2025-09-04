@@ -22,7 +22,7 @@ cc_arch = 'amd64'
 bits = 64
 
 [host_machine]
-system = 'helenos'
+system = 'silkos'
 cpu_family = 'x86_64'
 cpu = 'x86_64'
 endian = 'little'

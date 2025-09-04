@@ -49,7 +49,7 @@ echo
 
 PROFILES=`sh ${SOURCE_DIR}/tools/list_profiles.sh`
 RELEASE=`sed -n 's:^SILKOS_RELEASE \?= \?\(.*\)$:\1:p' "${SOURCE_DIR}/version"`
-SRC_ARCHIVE="HelenOS-${RELEASE}-src.tar"
+SRC_ARCHIVE="SilkOS-${RELEASE}-src.tar"
 
 git -C "${SOURCE_DIR}" archive master -o "${PWD}/${SRC_ARCHIVE}"
 bzip2 -f "${SRC_ARCHIVE}"
@@ -64,7 +64,7 @@ for profile in $PROFILES; do
 	image_path="build_all/$profile/`cat build_all/$profile/image_path`"
 	image_suffix=`echo "$image_name" | sed 's:.*\.::'`
 
-	release_name="HelenOS-${RELEASE}-`echo $profile | tr '/' '-'`.$image_suffix"
+	release_name="SilkOS-${RELEASE}-`echo $profile | tr '/' '-'`.$image_suffix"
 	cp "$image_path" "$release_name"
 
 	echo "Created $release_name"

@@ -48,7 +48,7 @@ CONFIG = 'Makefile.config'
 TOOLS_DIR = os.path.dirname(inspect.getabsfile(inspect.currentframe()))
 
 def read_config():
-	"Read HelenOS build configuration"
+	"Read SilkOS build configuration"
 
 	inf = open(CONFIG, 'r')
 	config = {}

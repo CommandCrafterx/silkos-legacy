@@ -40,5 +40,5 @@ cp -t ${DESTDIR}/boot \
 	${SRCDIR}/a.out/second.b \
 	${SRCDIR}/silo.conf
 
-mkdir -p ${DESTDIR}/HelenOS
-cp ${BOOT_OUTPUT} ${DESTDIR}/HelenOS/image.boot
+mkdir -p ${DESTDIR}/SilkOS
+cp ${BOOT_OUTPUT} ${DESTDIR}/SilkOS/image.boot

@@ -19,7 +19,7 @@ cc_arch = 'riscv64'
 bits = 64
 
 [host_machine]
-system = 'helenos'
+system = 'silkos'
 cpu_family = 'riscv64'
 cpu = 'riscv64'
 endian = 'little'

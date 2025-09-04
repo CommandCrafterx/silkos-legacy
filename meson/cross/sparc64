@@ -19,7 +19,7 @@ cc_arch = 'sparc64'
 bits = 64
 
 [host_machine]
-system = 'helenos'
+system = 'silkos'
 cpu_family = 'sparc64'
 cpu = 'sparc64'
 endian = 'big'

@@ -19,7 +19,7 @@ cc_arch = 'mipsel'
 bits = 32
 
 [host_machine]
-system = 'helenos'
+system = 'silkos'
 cpu_family = 'mips'
 cpu = 'mips'
 endian = 'little'

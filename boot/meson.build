@@ -212,7 +212,7 @@ if POSTBUILD == 'silo'
 endif
 
 if POSTBUILD == 'uboot'
-	IMAGE_NAME = 'HelenOS-' + SILKOS_RELEASE
+	IMAGE_NAME = 'SilkOS-' + SILKOS_RELEASE
 
 	POST_INPUT = custom_target('uboot-image',
 		output: 'uboot-image.bin',

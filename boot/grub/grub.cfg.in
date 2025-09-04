@@ -31,6 +31,6 @@ set timeout=10
 
 @INSMODS@
 
-menuentry 'SilkOS @RELEASE@' --class helenos --class os {
+menuentry 'SilkOS @RELEASE@' --class silkos --class os {
 	@LOADS@
 }

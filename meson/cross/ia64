@@ -19,7 +19,7 @@ cc_arch = 'ia64'
 bits = 64
 
 [host_machine]
-system = 'helenos'
+system = 'silkos'
 cpu_family = 'ia64'
 cpu = 'ia64'
 endian = 'little'
