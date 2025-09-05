@@ -1,5 +1,5 @@
 <chrp-boot>
-<description>HelenOS</description>
-<os-name>HelenOS</os-name>
+<description>SilkOS</description>
+<os-name>SilkOS</os-name>
 <boot-script>boot cd:,\boot\yaboot</boot-script>
 </chrp-boot>

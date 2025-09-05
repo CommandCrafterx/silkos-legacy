@@ -3,7 +3,7 @@
 MacRISC
 </COMPATIBLE>
 <DESCRIPTION>
-HelenOS
+SilkOS
 </DESCRIPTION>
 <BOOT-SCRIPT>
 " screen" output
