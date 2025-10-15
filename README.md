@@ -29,7 +29,7 @@ $ git clone https://github.com/CommandCrafterx/silkos
 ```
 You need to install the HelenOS toolchain to build SilkOS you can install it by running the toolchain.sh script:
 ```
-$ cd SilkOS/tools
+$ cd silkos/tools
 $ ./toolchain.sh amd64 #Or ia32
 ```
 Since Meson dosen't support in-tree builds you need to create a seperate build directory and enter it after changing the directory back into the directory where you downloaded the SilkOS source code:
