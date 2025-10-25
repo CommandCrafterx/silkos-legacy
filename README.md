@@ -25,7 +25,7 @@ Fedora/RHEL:
 ### Build Process:
 First downlaod the source code:
 ```
-$ git clone https://github.com/CommandCrafterx/silkos
+$ git clone https://github.com/CommandCrafterx/silkos-legacy
 ```
 You need to install the HelenOS toolchain to build SilkOS you can install it by running the toolchain.sh script:
 ```
@@ -53,6 +53,6 @@ Now you should have a file called image.iso in your build directory, you can run
 ./tools/ew.py
 ```
 ## Precompiled Images
-If you can't compile SilkOS yourself we offer precompiled Images in the [Releases](https://github.com/CommandCrafterx/silkos/releases) Section.
+If you can't compile SilkOS yourself we offer precompiled Images in the [Releases](https://github.com/CommandCrafterx/silkos-legacy/releases) Section.
 ## License 
 Most of the Source Code is licensed under the BSD license but some third party components like the grub bootloader are GPL licensed.
