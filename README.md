@@ -29,7 +29,7 @@ $ git clone https://github.com/CommandCrafterx/silkos-legacy
 ```
 You need to install the HelenOS toolchain to build SilkOS you can install it by running the toolchain.sh script:
 ```
-$ cd silkos/tools
+$ cd silkos-legacy/tools
 $ ./toolchain.sh amd64 #Or ia32
 ```
 Since Meson dosen't support in-tree builds you need to create a seperate build directory and enter it after changing the directory back into the directory where you downloaded the SilkOS source code:
@@ -41,7 +41,7 @@ $ cd build/amd64 #Replace "amd64" with your desired architecture
 ```
 Now you can configure the SilkOS source code:
 ```
-../../silkos/configure.sh amd64 #Replace "amd64" with your desired architecture
+../../silkos-legacy/configure.sh amd64 #Replace "amd64" with your desired architecture
 ```
 Now you can compile the Source Code:
 ```
