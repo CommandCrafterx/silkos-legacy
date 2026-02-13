@@ -38,6 +38,7 @@ apps = [
 	'corecfg',
 	'cpptest',
 	'date',
+	'delete',
 	'devctl',
 	'df',
 	'disp',
