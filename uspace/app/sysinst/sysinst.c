@@ -742,11 +742,10 @@ static errno_t sysinst_label_dev(sysinst_t *sysinst, const char *dev)
 		sysinst->oper = sio_upgrade;
 		if (sysinst->progress != NULL) {
 			(void)ui_label_set_text(sysinst->progress->label,
-			    "Upgrading system. Please wait...");
-			(void)ui_label_paint(sysinst->progress->label);
-			(void)ui_window_set_caption(sysinst->bgwindow,
-			    "System Upgrade");
-		}
+			    "Upgrading SilkOS. Please wait...");
+			    (void)ui_label_paint(sysinst->progress->label);
+			    (void)ui_window_set_caption(sysinst->bgwindow,
+			    "SilkOS Upgrade");		}
 	} else {
 		/* Create installation partition. */
 		rc = sysinst_inst_part_create(sysinst, fdev);
@@ -1441,7 +1440,7 @@ static errno_t sysinst_progress_create(sysinst_t *sysinst,
 	errno_t rc;
 
 	ui_wnd_params_init(&params);
-	params.caption = "System Installation";
+	params.caption = "SilkOS Installation";
 	params.style &= ~ui_wds_titlebar;
 	params.flags |= ui_wndf_topmost;
 	params.placement = ui_wnd_place_center;
@@ -1702,7 +1701,7 @@ static errno_t sysinst_confirm_create(sysinst_t *sysinst)
 	errno_t rc;
 
 	ui_msg_dialog_params_init(&params);
-	params.caption = "System installation";
+	params.caption = "SilkOS installation";
 	params.text = "This will install SilkOS to your computer. Continue?";
 	params.choice = umdc_ok_cancel;
 	params.flags |= umdf_topmost | umdf_center;
@@ -1727,7 +1726,7 @@ static errno_t sysinst_upgrade_confirm_create(sysinst_t *sysinst)
 	errno_t rc;
 
 	ui_msg_dialog_params_init(&params);
-	params.caption = "System upgrade";
+	params.caption = "SilkOS upgrade";
 	params.text = "Existing installation found. "
 	    "Do you want to upgrade it?";
 	params.choice = umdc_ok_cancel;
@@ -1753,12 +1752,12 @@ static errno_t sysinst_restart_dlg_create(sysinst_t *sysinst)
 	errno_t rc;
 
 	ui_msg_dialog_params_init(&params);
-	params.caption = "Restart System";
+	params.caption = "Restart SilkOS";
 
 	if (sysinst->oper == sio_install)
-		params.text = "Installation complete. Restart the system?";
+		params.text = "Installation complete. Restart SilkOS?";
 	else
-		params.text = "Upgrade complete. Restart the system?";
+		params.text = "Upgrade complete. Restart SilkOS?";
 
 	params.choice = umdc_ok_cancel;
 	params.flags |= umdf_topmost | umdf_center;
@@ -1808,7 +1807,7 @@ static errno_t sysinst_run(const char *display_spec)
 	sysinst->ui = ui;
 
 	ui_wnd_params_init(&params);
-	params.caption = "System Installation";
+	params.caption = "SilkOS Installation";
 	params.style &= ~ui_wds_decorated;
 	params.placement = ui_wnd_place_full_screen;
 	params.flags |= ui_wndf_topmost | ui_wndf_nofocus;

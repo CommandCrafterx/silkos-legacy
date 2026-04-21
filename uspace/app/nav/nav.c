@@ -31,7 +31,7 @@
  */
 /** @file Navigator.
  *
- * HelenOS file manager.
+ * SilkOS file manager.
  */
 
 #include <fibril.h>

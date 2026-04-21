@@ -31,7 +31,7 @@
  */
 /** @file Navigator main.
  *
- * HelenOS file manager.
+ * SilkOS file manager.
  */
 
 #include <stdio.h>
