@@ -1,5 +1,10 @@
 # SilkOS
 
+> [!WARNING]
+> Current state of the project:
+> This version of SilkOS has been discontinued in favor of the new [SerenityOS based version](https://github.com/CommandCrafterx/SilkOS) and is therefore unmaintained.
+
+
 SilkOS is a microkernel-based hobbyist operating system based on [HelenOS](https://www.helenos.org/). Its goal is to provide a clean, stable, and modular foundation for building custom applications and services.
 
 ## Building SilkOS
